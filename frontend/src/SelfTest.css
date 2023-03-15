@@ -1,0 +1,243 @@
+
+  .score-section {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .mental-health > a >button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #14833e;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10vw;
+    transition: .3s ;
+  }
+
+  .precutions > a >button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #14833e;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10vw;
+    transition: .3s ;
+  }
+
+  .read_now >button{
+    font-size: 16px;
+    color: #000000;
+    background-color: #e7d919;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px black;
+  }
+
+  .read_now >button:hover{
+    background-color: #e7d919;
+    box-shadow: 0.5px 0.5px 2px black;
+    transform: translateY(-2px);
+    transform: translateX(-1px);
+  }
+
+  .physical-health > a >button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #14833e;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10vw;
+    transition: .3s ;
+  }
+
+  .symptoms > a > button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #14833e;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10vw;
+    transition: .3s ;
+  }
+
+  .precutions > a >button:hover{
+    box-shadow: 1px 1px 5px #808080;
+  }
+
+  .mental-health > a >button:hover{
+    box-shadow: 1px 1px 5px #808080;
+  }
+
+  .physical-health > a >button:hover{
+    box-shadow: 1px 1px 5px #808080;
+  } 
+
+  .symptoms > a >button:hover{
+    box-shadow: 1px 1px 5px #808080;
+  }
+
+  .mental-health  a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+
+  .quiz-page{
+      align-items: center;
+      justify-content: center;
+      width: 70vw;
+      background: rgba(144, 238, 144, 0.342);
+      padding: 20px;
+      border-radius: 20px;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .question-count span {
+    font-size: 15px;
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+    font-size: 25px;
+  }
+  
+  .answer-section {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .options {
+    width: 90%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #254a34;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  .correct {
+    background-color: #2f922f;
+  }
+  
+  .incorrect {
+    background-color: #ff3333;
+  }
+  
+  .options:hover {
+    background-color: #557d61;
+    font-size: 120%;
+    text-shadow: 3px 2px black;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  .options:focus {
+    outline: none;
+  }
+  
+  .options svg {
+    margin-right: 5px;
+  }
+
+  .other_btns{
+    display: flex;
+  }
+
+  .rec_btns{
+    display: inline-flex;
+  }
+
+  .rec_btns > a > button{
+    font-size: 16px;
+    color: #000000;
+    background-color: #e7d919;
+    border-radius: 10px;
+    margin:5vw;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px black;
+  }
+
+  .rec_btns > a > button:hover{
+    background-color: #e7d919;
+    box-shadow: 0.5px 0.5px 2px black;
+    transform: translateY(-2px);
+    transform: translateX(-1px);
+  }
+
+  @media (max-width:750px){
+    .quiz-page{
+      width: 90vw;
+      padding: 10px;
+    }
+
+    .rec_btns{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width:550px){
+    .question-text {
+      margin-bottom: 12px;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .options {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 990px){
+    .mental-health > a > button{
+      width: 100%;
+      margin: 0;
+    }
+
+    .precutions > a > button{
+      width: 100%;
+      margin: 0;
+    }
+
+    .physical-health > a > button{
+      width: 100%;
+      margin: 0;
+    }
+    .symptoms > a > button{
+      width: 100%;
+      margin: 0;
+    }
+    .other_btns{
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,37 @@
+.scrollTop {
+    position: fixed;   
+    font-size: 1rem; 
+    bottom: 30px;
+    right: 20px;
+    height: 100%;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.6;
+    background-color: #add8e6;
+    padding: 10px 15px 15px 15px;
+    border-radius: 20px;
+  }
+  
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @media (max-width: 730px){
+    .scrollTop {
+      position: fixed;   
+      font-size: 1rem; 
+      bottom: 6%;
+      right: 35%;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
